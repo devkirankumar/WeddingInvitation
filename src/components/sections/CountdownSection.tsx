@@ -63,7 +63,7 @@ export function CountdownSection() {
     <section
       id="countdown"
       aria-labelledby="countdown-title"
-      className="paper relative flex min-h-[100svh] flex-col items-center justify-end overflow-hidden px-4 pb-12 sm:pb-16 md:pb-20 lg:pb-16"
+      className="paper relative flex min-h-[100svh] flex-col items-center justify-start overflow-hidden px-4 pt-[53svh] lg:justify-end lg:pt-0 lg:pb-16"
     >
       {painted && art ? (
         <SectionArt art={art} position="center top" />
@@ -81,9 +81,9 @@ export function CountdownSection() {
         whileInView={{ opacity: 1, y: 0, scale: 1 }}
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-        className="relative z-20 w-full max-w-[500px] rounded-2xl border border-[#C09D5C]/45 bg-[#FDFBF7]/90 px-6 py-6 sm:px-10 sm:py-8 text-center shadow-[0_14px_44px_rgba(70,50,25,0.15)] backdrop-blur-md"
+        className="relative z-20 w-full max-w-[500px] text-center lg:rounded-2xl lg:border lg:border-[#C09D5C]/45 lg:bg-[#FDFBF7]/90 lg:px-10 lg:py-8 lg:shadow-[0_14px_44px_rgba(70,50,25,0.15)] lg:backdrop-blur-md"
       >
-        <h2 id="countdown-title" className="mb-4 sm:mb-6 flex justify-center" aria-label="Count down">
+        <h2 id="countdown-title" className="mb-3 sm:mb-4 lg:mb-6 flex justify-center" aria-label="Count down">
           {"COUNT DOWN".split("").map((ch, i) => (
             <motion.span
               key={i}
@@ -92,7 +92,7 @@ export function CountdownSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: i * 0.05 }}
-              className="inline-block font-display text-[15px] sm:text-[18px] md:text-[20px] font-bold uppercase tracking-[0.32em] text-[#3E321E]"
+              className="inline-block font-display text-[13px] sm:text-[16px] lg:text-[20px] font-semibold lg:font-bold uppercase tracking-[0.3em] lg:tracking-[0.32em] text-[#3E321E]"
             >
               {ch === " " ? "\u00A0" : ch}
             </motion.span>
@@ -102,19 +102,19 @@ export function CountdownSection() {
         {t?.done ? (
           <p className="font-script text-[2.2rem] text-[#3E321E]">Happily married!</p>
         ) : (
-          <div className="flex items-center justify-center gap-1 sm:gap-3" role="timer" aria-live="off">
+          <div className="flex items-center justify-center gap-0 lg:gap-3" role="timer" aria-live="off">
             {units.map((u, i) => (
               <div key={u.key} className="flex items-center">
-                <div className="flex min-w-[58px] sm:min-w-[76px] md:min-w-[84px] flex-col items-center">
-                  <div className="font-display text-[32px] sm:text-[42px] md:text-[48px] font-bold leading-none text-[#3E321E] tabular-nums drop-shadow-sm">
+                <div className="flex min-w-[52px] sm:min-w-[64px] lg:min-w-[84px] flex-col items-center">
+                  <div className="font-display text-[24px] sm:text-[30px] lg:text-[48px] font-normal lg:font-bold leading-none text-[#2F3A22] lg:text-[#3E321E] tabular-nums lg:drop-shadow-sm">
                     {u.value === undefined ? "--" : u.key === "days" ? String(u.value) : String(u.value).padStart(2, "0")}
                   </div>
-                  <div className="mt-2 font-display text-[10.5px] sm:text-[12px] md:text-[13px] font-bold uppercase tracking-[0.24em] text-[#7A6840]">
+                  <div className="mt-1.5 lg:mt-2 font-display text-[9px] sm:text-[10.5px] lg:text-[13px] font-bold uppercase tracking-[0.12em] lg:tracking-[0.24em] text-[#4A5A2E] lg:text-[#7A6840]">
                     {u.label}
                   </div>
                 </div>
                 {i < units.length - 1 && (
-                  <span aria-hidden="true" className="mx-1 sm:mx-2.5 h-8 sm:h-12 w-[1.5px] bg-[#C09D5C]/60" />
+                  <span aria-hidden="true" className="mx-0.5 sm:mx-1.5 lg:mx-2.5 h-6 sm:h-8 lg:h-12 w-px lg:w-[1.5px] bg-[#B5473A]/45 lg:bg-[#C09D5C]/60" />
                 )}
               </div>
             ))}

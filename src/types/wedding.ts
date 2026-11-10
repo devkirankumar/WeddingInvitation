@@ -13,7 +13,7 @@ export interface WeddingEvent {
   /** Overrides the formatted start time, e.g. "Sumuhurtham at 4:42 A.M." */
   timeLabel?: string;
   description: string;
-  icon: "tilak" | "reception" | "wedding";
+  icon: "tilak" | "haldi" | "reception" | "wedding";
 }
 
 export interface Ritual {

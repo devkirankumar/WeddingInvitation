@@ -63,18 +63,26 @@ export const wedding: WeddingConfig = {
   events: [
     {
       id: "tilak",
-      name: "Tilak Dharanam",
+      name: "Tilak Dharanam & Engagement",
       start: "2026-11-30T15:30:00+05:30",
       timeLabel: "3:30 P.M. onwards",
-      description: "The groom is blessed with the sacred tilak as the celebrations begin.",
+      description: "The groom is blessed with the sacred tilak and the rings are exchanged as the celebrations begin.",
       icon: "tilak",
     },
     {
+      id: "haldi",
+      name: "Haldi",
+      start: "2026-12-02T09:00:00+05:30",
+      timeLabel: "Morning",
+      description: "A joyful morning of turmeric, laughter and blessings for the couple.",
+      icon: "haldi",
+    },
+    {
       id: "reception",
-      name: "Reception",
+      name: "Varmala & Reception",
       start: "2026-12-02T19:30:00+05:30",
       timeLabel: "7:30 P.M. onwards",
-      description: "An evening to celebrate with our family, relatives and friends.",
+      description: "The exchange of garlands, followed by an evening to celebrate with our family, relatives and friends.",
       icon: "reception",
     },
     {
@@ -88,9 +96,9 @@ export const wedding: WeddingConfig = {
   ],
 
   venue: {
-    name: "Royal Garden Hall",
+    name: "Royal Garden",
     lines: ["Mohammadia Bazar, Near Prajatantra Press", "Cuttack, Odisha - 753002"],
-    mapsQuery: "Royal Garden Hall, Mohammadia Bazar, Near Prajatantra Press, Cuttack, Odisha 753002",
+    mapsQuery: "Royal Garden, Mohammadia Bazar, Near Prajatantra Press, Cuttack, Odisha 753002",
   },
 
   journey: {
@@ -107,7 +115,7 @@ export const wedding: WeddingConfig = {
           { name: "Mehendi", text: "A joyful celebration where the bride’s hands are adorned with beautiful henna designs." },
           { name: "Haldi", text: "A traditional turmeric ceremony held to bless the bride and groom." },
           { name: "Kalugoru Sambhralu", text: "A cherished family celebration filled with love, laughter and togetherness." },
-          { name: "Reception", text: "An evening to celebrate with our family, relatives and friends." },
+          { name: "Reception", text: "The exchange of garlands, followed by an evening to celebrate with our family, relatives and friends." },
         ],
       },
       {
