@@ -48,8 +48,8 @@ export const wedding: WeddingConfig = {
   hero: { timeLabel: "Sumuhurtham · 4:42 A.M." },
 
   welcome: {
-    headingLine1: "Dear Friends",
-    headingLine2: "& Family,",
+    headingLine1: "Dear Family",
+    headingLine2: "& Friends,",
     message:
       "With great joy, we invite you and your family to join us as we celebrate the wedding of our beloved younger son.",
     hostedBy: ["Sri Karra Nageswar Rao", "Smt. Karra Jyoti"],
@@ -81,13 +81,21 @@ export const wedding: WeddingConfig = {
       id: "haldi",
       name: "Haldi",
       start: "2026-12-02T09:00:00+05:30",
-      timeLabel: "Morning",
+      timeLabel: "8:00 A.M. onwards",
       description: "A joyful morning of turmeric, laughter and blessings for the couple.",
       icon: "haldi",
     },
     {
+      id: "varmala",
+      name: "Varmala",
+      start: "2026-12-02T19:30:00+05:30",
+      timeLabel: "4:30 P.M. onwards",
+      description: "The exchange of garlands, followed by an evening to celebrate with our family, relatives and friends.",
+      icon: "reception",
+    },
+    {
       id: "reception",
-      name: "Varmala & Reception",
+      name: "Reception",
       start: "2026-12-02T19:30:00+05:30",
       timeLabel: "7:30 P.M. onwards",
       description: "The exchange of garlands, followed by an evening to celebrate with our family, relatives and friends.",
