@@ -89,9 +89,11 @@ export function HeroSection() {
         <Item>
           <p className="font-display text-[clamp(0.9rem,0.8rem+0.6vw,1.15rem)] uppercase tracking-[0.14em] text-ink">{d.weekday}</p>
         </Item>
-        <Item>
-          <p className="mb-2.5 mt-0.5 font-display text-[clamp(0.8rem,0.75rem+0.4vw,1rem)] tracking-[0.08em] text-ink">{wedding.hero.timeLabel}</p>
-        </Item>
+        {wedding.hero.timeLabel && (
+          <Item>
+            <p className="mb-2.5 mt-0.5 font-display text-[clamp(0.8rem,0.75rem+0.4vw,1rem)] tracking-[0.08em] text-ink">{wedding.hero.timeLabel}</p>
+          </Item>
+        )}
         <Item className="mb-1">
           <PinIcon size={14} />
         </Item>

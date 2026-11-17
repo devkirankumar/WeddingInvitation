@@ -9,7 +9,7 @@ export const wedding: WeddingConfig = {
     url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
     title: "Kiran & Tejaswi — Wedding Invitation",
     description:
-      "The Karra family invites you to the wedding of Chi. K. Kiran Kumar and Chi. La. Sou. B. Tejaswi on Thursday, 3 December 2026 at Royal Garden Hall, Cuttack.",
+      "The Karra family invites you to the wedding of Chi. K. Kiran Kumar and Chi. La. Sou. B. Tejaswi on Wednesday, 2 December 2026 at Royal Garden Hall, Cuttack.",
     locale: "en-IN",
     timeZone: "Asia/Kolkata",
   },
@@ -44,8 +44,8 @@ export const wedding: WeddingConfig = {
     monogram: "K & T",
   },
 
-  weddingDate: "2026-12-03T04:42:00+05:30",
-  hero: { timeLabel: "Sumuhurtham · 4:42 A.M." },
+  weddingDate: "2026-12-02T04:42:00+05:30",
+  hero: { timeLabel: "" },
 
   welcome: {
     headingLine1: "Dear Family",

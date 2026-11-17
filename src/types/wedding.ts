@@ -57,7 +57,7 @@ export interface WeddingConfig {
   };
   /** Main muhurtham — drives the hero date and the countdown. */
   weddingDate: string;
-  hero: { timeLabel: string };
+  hero: { timeLabel?: string };
   welcome: {
     headingLine1: string;
     headingLine2: string;
