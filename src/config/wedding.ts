@@ -70,6 +70,14 @@ export const wedding: WeddingConfig = {
       icon: "tilak",
     },
     {
+      id: "mehendi",
+      name: "Mehendi",
+      start: "2026-12-01T15:30:00+05:30",
+      timeLabel: "6:30 P.M. onwards",
+      description: "An evening filled with vibrant colours, beautiful henna designs, music and laughter as we celebrate the joy of togetherness",
+      icon: "mehendi",
+    },
+    {
       id: "haldi",
       name: "Haldi",
       start: "2026-12-02T09:00:00+05:30",
@@ -159,16 +167,16 @@ export const wedding: WeddingConfig = {
     enabled: true,
     items: [
       {
-        image: { src: "/images/sample-photo-3.webp", alt: "Kiran & Tejaswi", width: 800, height: 1000 },
-        quote: "Two hearts, one soul, a lifetime of beautiful moments.",
+        image: { src: "/images/file_00000000d65c8208bc60e03917a78630.png", alt: "Kiran", width: 800, height: 1000 },
+        quote: "In your arms, I have found my forever home.",
       },
       {
-        image: { src: "/images/sample-photo-2.webp", alt: "Tejaswi", width: 800, height: 1000 },
+        image: { src: "/images/IMG-20261113-WA0017.jpg", alt: "Tejaswi", width: 800, height: 1000 },
         quote: "Every love story is beautiful, but ours is my favourite.",
       },
       {
-        image: { src: "/images/sample-photo-1.webp", alt: "Kiran", width: 800, height: 1000 },
-        quote: "In your arms, I have found my forever home.",
+        image: { src: "/images/IMG-20260817-WA0012.jpg", alt: "Kiran & Tejaswi", width: 800, height: 1000 },
+        quote: "Two families, two hearts, one beautiful beginning.",
       },
     ],
   },
@@ -185,5 +193,5 @@ export const wedding: WeddingConfig = {
     complimentsFrom: "The Karra Family",
   },
 
-  music: { src: "/images/Traditional.mp3", title: "traditional" },
+  music: { src: "/images/Ranjha-Flute-SnapYT.App Ringtone.mp3", title: "traditional" },
 };

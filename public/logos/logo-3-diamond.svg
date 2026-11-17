@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><style>@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&amp;family=Great+Vibes&amp;family=Cormorant+Garamond:ital,wght@1,500&amp;display=swap");</style>
+<rect x="40" y="40" width="120" height="120" transform="rotate(45 100 100)" fill="#FBF4E4" stroke="#B58A3C" stroke-width="2"/>
+<rect x="50" y="50" width="100" height="100" transform="rotate(45 100 100)" fill="none" stroke="#C09D5C" stroke-width="0.8"/>
+<circle cx="100" cy="22" r="3" fill="#B58A3C"/><circle cx="100" cy="178" r="3" fill="#B58A3C"/><circle cx="22" cy="100" r="3" fill="#B58A3C"/><circle cx="178" cy="100" r="3" fill="#B58A3C"/>
+<text x="100" y="112" text-anchor="middle" font-family="Cinzel,serif" font-size="44" font-weight="600" fill="#4A3E20">K<tspan font-family="Great Vibes,cursive" font-size="30" fill="#B58A3C" dx="3">&amp;</tspan><tspan dx="3">T</tspan></text>
+</svg>

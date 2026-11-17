@@ -17,6 +17,12 @@ const ICONS: Record<WeddingEvent["icon"], React.ReactNode> = {
       <path d="M5 14h14" />
     </svg>
   ),
+  mehendi: (
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 3c3 3 5 5.5 5 8.5a5 5 0 0 1-10 0C7 8.500 9 6 12 3z" />
+      <path d="M12 9v8M9.500 12l2.500 2 2.500-2" />
+    </svg>
+  ),
   haldi: (
     <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
       <path d="M4 12h16c0 4.4-3.6 8-8 8s-8-3.6-8-8z" />

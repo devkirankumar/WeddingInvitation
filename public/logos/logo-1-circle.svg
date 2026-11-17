@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><style>@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&amp;family=Great+Vibes&amp;family=Cormorant+Garamond:ital,wght@1,500&amp;display=swap");</style>
+<circle cx="100" cy="100" r="92" fill="#FDFBF7" stroke="#B58A3C" stroke-width="2"/>
+<circle cx="100" cy="100" r="84" fill="none" stroke="#C09D5C" stroke-width="0.8"/>
+<text x="100" y="118" text-anchor="middle" font-family="Cinzel,serif" font-size="60" font-weight="600" fill="#4A3E20" letter-spacing="2">K<tspan font-family="Great Vibes,cursive" font-size="44" fill="#B58A3C" dx="4" dy="-6">&amp;</tspan><tspan dx="4" dy="6">T</tspan></text>
+<path d="M60 140h80" stroke="#C09D5C" stroke-width="1"/><circle cx="100" cy="140" r="2.5" fill="#B58A3C"/>
+<text x="100" y="162" text-anchor="middle" font-family="Cinzel,serif" font-size="10" letter-spacing="4" fill="#7A6840">01 · 12 · 2026</text>
+</svg>

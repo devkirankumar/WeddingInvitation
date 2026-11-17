@@ -91,6 +91,16 @@ export function InvitationCover({ onOpened, onStartMusic }: { onOpened: () => vo
           className="pointer-events-none absolute inset-0 size-full object-cover"
         />
 
+        {/* Couple logo (K & T) */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/logo.png"
+          alt={wedding.couple.monogram}
+          width={320}
+          height={325}
+          className={`pointer-events-none absolute left-1/2 top-[3%] w-[26vw] max-w-[120px] -translate-x-1/2 mix-blend-multiply transition-opacity duration-500 ${isPlaying ? "opacity-0" : "opacity-100"}`}
+        />
+
         {/* "TAP TO OPEN" prompt overlay (visible until tapped) */}
         <div
           className={`pointer-events-none absolute inset-x-0 top-[18%] sm:top-[20%] flex flex-col items-center px-6 text-center transition-opacity duration-500 ${isPlaying ? "opacity-0" : "opacity-100"

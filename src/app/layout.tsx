@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false }, // private invitation — keep out of search results
   formatDetection: { telephone: false, address: false, email: false },
   icons: {
-    icon: "/icon.svg",
-    apple: "/icon.svg",
+    icon: "/logo.png",
+    apple: "/logo.png",
   },
 };
 
